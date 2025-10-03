@@ -82,14 +82,12 @@
 
 ## 4) Repository Structure (suggested)
 .
-├─ datasets/
-│  ├─ detection/            # YOLO txt labels + images
-│  └─ classification/       # Cropped 224×224 single-grain images (train/val/test)
-├─ yolov11_la/              # Detection model code & configs
-├─ ricelcnn/                # Classification model code
-├─ tracking/                # DeepSORT utilities
-├─ phenotyping/             # Sub-pixel measurement & mm/px scale
-├─ deployment/              # Jetson Orin scripts/configs
-├─ examples/                # Minimal training/eval/infer scripts
-└─ README.md
+- ├─ datasets/
+- │  ├─ detection/            # YOLO txt labels + images
+- │  └─ classification/       # Cropped 224×224 single-grain images (train/val/test)
+- ├─ yolov11_la/              # Detection model code & configs
+- ├─ ricelcnn/                # Classification model code
+- ├─ tracking/                # DeepSORT utilities
+- └─ README.md
+
 
